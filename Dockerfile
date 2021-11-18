@@ -8,4 +8,4 @@ RUN set -x && \
     # I don't know Go so there's probably a more graceful way of dealing with this, but the big hammer works every time \
     rm /go/pkg/mod/git.sr.ht/~ft/cue@*/*test*
 
-ENTRYPOINT [ "/go/bin/unflac" ]
+ENTRYPOINT [ "unflac" ]
